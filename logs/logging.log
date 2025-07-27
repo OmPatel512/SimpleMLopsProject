@@ -186,3 +186,171 @@ Source-Age: 0
 
 2025-07-27 09:51:17,829 - SimpleMLopsLogger - INFO - Data Ingestion Stage completed successfully.
 2025-07-27 09:51:17,829 - SimpleMLopsLogger - INFO - Data ingestion pipeline executed successfully.
+2025-07-27 17:24:18,690 - SimpleMLopsLogger - ERROR - name 'schema_filepath' is not defined
+Traceback (most recent call last):
+  File "C:\Users\omsup\AppData\Local\Temp\ipykernel_8540\4189740378.py", line 2, in <module>
+    config = ConfigurationManager()
+  File "C:\Users\omsup\AppData\Local\Temp\ipykernel_8540\2781492024.py", line 10, in __init__
+    self.config = read_yaml(schema_filepath)
+NameError: name 'schema_filepath' is not defined. Did you mean: 'scherma_filepath'?
+2025-07-27 17:24:32,231 - SimpleMLopsLogger - ERROR - name 'schema_filepath' is not defined
+Traceback (most recent call last):
+  File "C:\Users\omsup\AppData\Local\Temp\ipykernel_8540\4189740378.py", line 2, in <module>
+    config = ConfigurationManager()
+  File "C:\Users\omsup\AppData\Local\Temp\ipykernel_8540\2781492024.py", line 10, in __init__
+    self.config = read_yaml(schema_filepath)
+NameError: name 'schema_filepath' is not defined. Did you mean: 'scherma_filepath'?
+2025-07-27 17:25:05,795 - SimpleMLopsLogger - INFO - YAML file schema.yaml read successfully.
+2025-07-27 17:25:05,798 - SimpleMLopsLogger - ERROR - "'ConfigBox' object has no attribute 'artifacts_root'"
+Traceback (most recent call last):
+  File "box\\box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'artifacts_root'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 633, in box.box.Box.__getattr__
+  File "box\\box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'artifacts_root'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'artifacts_root'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\config_box.py", line 29, in box.config_box.ConfigBox.__getattr__
+  File "box\\box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'artifacts_root'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'artifacts_root'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 633, in box.box.Box.__getattr__
+  File "box\\box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'artifacts_root'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'artifacts_root'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\omsup\AppData\Local\Temp\ipykernel_8540\4189740378.py", line 2, in <module>
+    config = ConfigurationManager()
+  File "C:\Users\omsup\AppData\Local\Temp\ipykernel_8540\859222285.py", line 12, in __init__
+    create_directories([self.config.artifacts_root])
+  File "box\\config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
+  File "box\\box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'artifacts_root'"
+2025-07-27 17:28:12,144 - SimpleMLopsLogger - INFO - YAML file schema.yaml read successfully.
+2025-07-27 17:28:12,145 - SimpleMLopsLogger - ERROR - "'ConfigBox' object has no attribute 'artifacts_root'"
+Traceback (most recent call last):
+  File "box\\box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'artifacts_root'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 633, in box.box.Box.__getattr__
+  File "box\\box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'artifacts_root'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'artifacts_root'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\config_box.py", line 29, in box.config_box.ConfigBox.__getattr__
+  File "box\\box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'artifacts_root'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'artifacts_root'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 633, in box.box.Box.__getattr__
+  File "box\\box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'artifacts_root'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'artifacts_root'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\omsup\AppData\Local\Temp\ipykernel_8540\4189740378.py", line 2, in <module>
+    config = ConfigurationManager()
+  File "C:\Users\omsup\AppData\Local\Temp\ipykernel_8540\859222285.py", line 12, in __init__
+    create_directories([self.config.artifacts_root])
+  File "box\\config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
+  File "box\\box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'artifacts_root'"
+2025-07-27 17:28:57,968 - SimpleMLopsLogger - INFO - YAML file config\config.yaml read successfully.
+2025-07-27 17:28:57,970 - SimpleMLopsLogger - INFO - Created directory: artifacts
+2025-07-27 17:28:57,971 - SimpleMLopsLogger - ERROR - 'ConfigurationManager' object has no attribute 'schema'
+Traceback (most recent call last):
+  File "C:\Users\omsup\AppData\Local\Temp\ipykernel_8540\4189740378.py", line 3, in <module>
+    data_validation_config = config.get_data_validation_config()
+  File "C:\Users\omsup\AppData\Local\Temp\ipykernel_8540\1167713853.py", line 16, in get_data_validation_config
+    schema = self.schema.COLUMNS
+AttributeError: 'ConfigurationManager' object has no attribute 'schema'
+2025-07-27 17:30:05,121 - SimpleMLopsLogger - INFO - YAML file config\config.yaml read successfully.
+2025-07-27 17:30:05,124 - SimpleMLopsLogger - INFO - YAML file schema.yaml read successfully.
+2025-07-27 17:30:05,127 - SimpleMLopsLogger - INFO - Created directory: artifacts
+2025-07-27 17:30:05,128 - SimpleMLopsLogger - INFO - Created directory: artifacts/data_validation
+2025-07-27 17:30:05,129 - SimpleMLopsLogger - ERROR - name 'data_validation_config' is not defined
+Traceback (most recent call last):
+  File "C:\Users\omsup\AppData\Local\Temp\ipykernel_8540\4189740378.py", line 3, in <module>
+    data_validation_config = config.get_data_validation_config()
+  File "C:\Users\omsup\AppData\Local\Temp\ipykernel_8540\4268205820.py", line 24, in get_data_validation_config
+    return data_validation_config
+NameError: name 'data_validation_config' is not defined. Did you mean: 'DataValidationConfig'?
+2025-07-27 17:30:46,793 - SimpleMLopsLogger - INFO - YAML file config\config.yaml read successfully.
+2025-07-27 17:30:46,796 - SimpleMLopsLogger - INFO - YAML file schema.yaml read successfully.
+2025-07-27 17:30:46,798 - SimpleMLopsLogger - INFO - Created directory: artifacts
+2025-07-27 17:30:46,799 - SimpleMLopsLogger - INFO - Created directory: artifacts/data_validation
+2025-07-27 17:48:38,517 - SimpleMLopsLogger - INFO - Data ingestion pipeline module loaded successfully.
+2025-07-27 17:48:38,519 - SimpleMLopsLogger - INFO - YAML file config\config.yaml read successfully.
+2025-07-27 17:48:38,519 - SimpleMLopsLogger - INFO - YAML file params.yaml read successfully.
+2025-07-27 17:49:33,931 - SimpleMLopsLogger - INFO - Data ingestion pipeline module loaded successfully.
+2025-07-27 17:49:33,932 - SimpleMLopsLogger - INFO - YAML file config\config.yaml read successfully.
+2025-07-27 17:49:33,935 - SimpleMLopsLogger - INFO - YAML file params.yaml read successfully.
+2025-07-27 17:49:33,936 - SimpleMLopsLogger - INFO - YAML file schema.yaml read successfully.
+2025-07-27 17:49:33,939 - SimpleMLopsLogger - INFO - Created directory: artifacts
+2025-07-27 17:49:33,939 - SimpleMLopsLogger - INFO - Created directory: artifacts/data_ingestion
+2025-07-27 17:49:33,939 - SimpleMLopsLogger - INFO - File artifacts/data_ingestion/winequality-data.zip already exists.
+2025-07-27 17:49:33,956 - SimpleMLopsLogger - INFO - Data Ingestion Stage completed successfully.
+2025-07-27 17:49:33,956 - SimpleMLopsLogger - INFO - Data ingestion pipeline executed successfully.
+2025-07-27 17:49:33,956 - SimpleMLopsLogger - INFO - Data validation pipeline module loaded successfully.
+2025-07-27 17:49:33,957 - SimpleMLopsLogger - INFO - YAML file config\config.yaml read successfully.
+2025-07-27 17:49:33,958 - SimpleMLopsLogger - INFO - YAML file params.yaml read successfully.
+2025-07-27 17:49:33,960 - SimpleMLopsLogger - INFO - YAML file schema.yaml read successfully.
+2025-07-27 17:49:33,961 - SimpleMLopsLogger - INFO - Created directory: artifacts
+2025-07-27 17:49:33,961 - SimpleMLopsLogger - INFO - Created directory: artifacts/data_validation
+2025-07-27 17:49:33,982 - SimpleMLopsLogger - INFO - Data Validation Stage completed successfully.
+2025-07-27 17:49:33,982 - SimpleMLopsLogger - INFO - Data validation pipeline executed successfully.

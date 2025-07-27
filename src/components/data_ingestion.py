@@ -2,7 +2,7 @@ import os
 import urllib.request as request
 from src import logger
 import zipfile
-from src.entity.config_entity import DataIngestionConfig
+from src.entity.config_entity import (DataIngestionConfig)
 
 
 ## Component - data Ingestion
