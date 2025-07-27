@@ -1,1 +1,188 @@
 2025-07-26 18:13:01,055 - SimpleMLopsLogger - INFO - This is a log message from src/__init__.py
+2025-07-26 21:18:21,300 - SimpleMLopsLogger - ERROR - name 'configuration_manager' is not defined
+Traceback (most recent call last):
+  File "C:\Users\omsup\AppData\Local\Temp\ipykernel_352\1096999847.py", line 2, in <module>
+    config=configuration_manager()
+NameError: name 'configuration_manager' is not defined
+2025-07-26 21:18:53,216 - SimpleMLopsLogger - ERROR - name 'ConfigurationManager' is not defined
+Traceback (most recent call last):
+  File "C:\Users\omsup\AppData\Local\Temp\ipykernel_352\2833887405.py", line 2, in <module>
+    config=ConfigurationManager()
+NameError: name 'ConfigurationManager' is not defined
+2025-07-26 21:19:47,017 - SimpleMLopsLogger - INFO - YAML file config\config.yaml read successfully.
+2025-07-26 21:19:47,018 - SimpleMLopsLogger - ERROR - name 'create_directories' is not defined
+Traceback (most recent call last):
+  File "C:\Users\omsup\AppData\Local\Temp\ipykernel_352\2833887405.py", line 2, in <module>
+    config=ConfigurationManager()
+  File "C:\Users\omsup\AppData\Local\Temp\ipykernel_352\2718532571.py", line 5, in __init__
+    create_directories([self.config.artifacts_root])
+NameError: name 'create_directories' is not defined
+2025-07-26 21:20:09,713 - SimpleMLopsLogger - INFO - YAML file config\config.yaml read successfully.
+2025-07-26 21:20:09,714 - SimpleMLopsLogger - INFO - Created directory: artifacts
+2025-07-26 21:20:09,716 - SimpleMLopsLogger - INFO - Created directory: artifacts/data_ingestion
+2025-07-26 21:20:09,716 - SimpleMLopsLogger - ERROR - 'NoneType' object has no attribute 'local_data_file'
+Traceback (most recent call last):
+  File "C:\Users\omsup\AppData\Local\Temp\ipykernel_352\2833887405.py", line 5, in <module>
+    data_ingestion.download_data()
+  File "C:\Users\omsup\AppData\Local\Temp\ipykernel_352\1325147327.py", line 8, in download_data
+    if not os.path.exists(self.config.local_data_file):
+AttributeError: 'NoneType' object has no attribute 'local_data_file'
+2025-07-26 21:21:15,490 - SimpleMLopsLogger - INFO - YAML file config\config.yaml read successfully.
+2025-07-26 21:21:15,492 - SimpleMLopsLogger - INFO - Created directory: artifacts
+2025-07-26 21:21:15,493 - SimpleMLopsLogger - INFO - Created directory: artifacts/data_ingestion
+2025-07-26 21:21:15,493 - SimpleMLopsLogger - ERROR - 'NoneType' object has no attribute 'local_data_file'
+Traceback (most recent call last):
+  File "C:\Users\omsup\AppData\Local\Temp\ipykernel_352\2833887405.py", line 5, in <module>
+    data_ingestion.download_data()
+  File "C:\Users\omsup\AppData\Local\Temp\ipykernel_352\1325147327.py", line 8, in download_data
+    if not os.path.exists(self.config.local_data_file):
+AttributeError: 'NoneType' object has no attribute 'local_data_file'
+2025-07-26 21:23:54,436 - SimpleMLopsLogger - INFO - YAML file config\config.yaml read successfully.
+2025-07-26 21:23:54,438 - SimpleMLopsLogger - INFO - Created directory: artifacts
+2025-07-26 21:23:54,439 - SimpleMLopsLogger - INFO - Created directory: artifacts/data_ingestion
+2025-07-26 21:23:55,003 - SimpleMLopsLogger - ERROR - HTTP Error 404: Not Found
+Traceback (most recent call last):
+  File "C:\Users\omsup\AppData\Local\Temp\ipykernel_352\2833887405.py", line 5, in <module>
+    data_ingestion.download_data()
+  File "C:\Users\omsup\AppData\Local\Temp\ipykernel_352\1325147327.py", line 9, in download_data
+    filename, headers = request.urlretrieve(
+  File "e:\MLs\MLOPS Project\SimpleMLopsProject\venv\lib\urllib\request.py", line 241, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "e:\MLs\MLOPS Project\SimpleMLopsProject\venv\lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "e:\MLs\MLOPS Project\SimpleMLopsProject\venv\lib\urllib\request.py", line 525, in open
+    response = meth(req, response)
+  File "e:\MLs\MLOPS Project\SimpleMLopsProject\venv\lib\urllib\request.py", line 634, in http_response
+    response = self.parent.error(
+  File "e:\MLs\MLOPS Project\SimpleMLopsProject\venv\lib\urllib\request.py", line 563, in error
+    return self._call_chain(*args)
+  File "e:\MLs\MLOPS Project\SimpleMLopsProject\venv\lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+  File "e:\MLs\MLOPS Project\SimpleMLopsProject\venv\lib\urllib\request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+2025-07-26 21:26:38,912 - SimpleMLopsLogger - INFO - YAML file config\config.yaml read successfully.
+2025-07-26 21:26:38,914 - SimpleMLopsLogger - INFO - Created directory: artifacts
+2025-07-26 21:26:38,915 - SimpleMLopsLogger - INFO - Created directory: artifacts/data_ingestion
+2025-07-26 21:26:39,580 - SimpleMLopsLogger - INFO - artifacts/data_ingestion/winequality-data.zip downloaded with following info: Date: Sat, 26 Jul 2025 15:56:39 GMT
+Content-Type: text/html; charset=utf-8
+Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, X-Requested-With,Accept-Encoding, Accept, X-Requested-With
+x-repository-download: git clone https://github.com/krishnaik06/datasets.git
+x-raw-download: https://raw.githubusercontent.com/krishnaik06/datasets/1224aaab5e7136afb9c0c874cbe1d20db22f5be5/winequality-data.zip
+ETag: W/"d920383c12c6cf43e38b589d4619720e"
+Cache-Control: max-age=0, private, must-revalidate
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: no-referrer-when-downgrade
+Content-Security-Policy: default-src 'none'; base-uri 'self'; child-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com *.rel.tunnels.api.visualstudio.com wss://*.rel.tunnels.api.visualstudio.com objects-origin.githubusercontent.com copilot-proxy.githubusercontent.com proxy.individual.githubcopilot.com proxy.business.githubcopilot.com proxy.enterprise.githubcopilot.com *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net/ productionresultssa1.blob.core.windows.net/ productionresultssa2.blob.core.windows.net/ productionresultssa3.blob.core.windows.net/ productionresultssa4.blob.core.windows.net/ productionresultssa5.blob.core.windows.net/ productionresultssa6.blob.core.windows.net/ productionresultssa7.blob.core.windows.net/ productionresultssa8.blob.core.windows.net/ productionresultssa9.blob.core.windows.net/ productionresultssa10.blob.core.windows.net/ productionresultssa11.blob.core.windows.net/ productionresultssa12.blob.core.windows.net/ productionresultssa13.blob.core.windows.net/ productionresultssa14.blob.core.windows.net/ productionresultssa15.blob.core.windows.net/ productionresultssa16.blob.core.windows.net/ productionresultssa17.blob.core.windows.net/ productionresultssa18.blob.core.windows.net/ productionresultssa19.blob.core.windows.net/ github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com api.githubcopilot.com api.individual.githubcopilot.com api.business.githubcopilot.com api.enterprise.githubcopilot.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: blob: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com private-avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com release-assets.githubusercontent.com secured-user-images.githubusercontent.com/ user-images.githubusercontent.com/ private-user-images.githubusercontent.com opengraph.githubassets.com copilotprodattachments.blob.core.windows.net/github-production-copilot-attachments/ github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/ private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/
+Server: github.com
+Accept-Ranges: bytes
+Set-Cookie: _gh_sess=ZSPldxm3JhdfIlyLT4jJ0juOvnMIvuIbF2TQgXeHLYK5z6keSFmTu4nzMf%2FcX1NkFDndwbJvCqSSnEv7BsbmZqjV2tMu4qunFHASY4pSve0E%2FsUT9QfueiqUPGBHBcr80%2FmFXfVEKvvp3H%2FxknOYo7YSVBmtXJdn8S2VvKcFHyCqJi0oCPyBHz5LRJ4Vr9MiWZARuc3%2BNJyM3Yhglrzjebvf5d6oI3oncrieIXQUaCfzednxWKvd%2Bk5qhW30hPKqZD8H1bAGK0m7Tv30MPT3OA%3D%3D--T5wpykH6jn34fjNK--NV%2FfZ1q9DmAVwr5ZMTLdPw%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: _octo=GH1.1.524169577.1753545399; Path=/; Domain=github.com; Expires=Sun, 26 Jul 2026 15:56:39 GMT; Secure; SameSite=Lax
+Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Sun, 26 Jul 2026 15:56:39 GMT; HttpOnly; Secure; SameSite=Lax
+X-GitHub-Request-Id: 973B:29FD1F:6F91D9:9044DC:6884FAB7
+connection: close
+Transfer-Encoding: chunked
+
+
+2025-07-26 21:26:39,625 - SimpleMLopsLogger - ERROR - File is not a zip file
+Traceback (most recent call last):
+  File "C:\Users\omsup\AppData\Local\Temp\ipykernel_352\2833887405.py", line 6, in <module>
+    data_ingestion.extract_zip_file()
+  File "C:\Users\omsup\AppData\Local\Temp\ipykernel_352\1325147327.py", line 20, in extract_zip_file
+    with zipfile.ZipFile(self.config.local_data_file, 'r') as zip_ref:
+  File "e:\MLs\MLOPS Project\SimpleMLopsProject\venv\lib\zipfile.py", line 1272, in __init__
+    self._RealGetContents()
+  File "e:\MLs\MLOPS Project\SimpleMLopsProject\venv\lib\zipfile.py", line 1339, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+2025-07-26 21:29:15,183 - SimpleMLopsLogger - INFO - YAML file config\config.yaml read successfully.
+2025-07-26 21:29:15,185 - SimpleMLopsLogger - INFO - Created directory: artifacts
+2025-07-26 21:29:15,187 - SimpleMLopsLogger - INFO - Created directory: artifacts/data_ingestion
+2025-07-26 21:29:15,188 - SimpleMLopsLogger - INFO - File artifacts/data_ingestion/winequality-data.zip already exists.
+2025-07-26 21:29:15,189 - SimpleMLopsLogger - ERROR - File is not a zip file
+Traceback (most recent call last):
+  File "C:\Users\omsup\AppData\Local\Temp\ipykernel_352\2833887405.py", line 6, in <module>
+    data_ingestion.extract_zip_file()
+  File "C:\Users\omsup\AppData\Local\Temp\ipykernel_352\1325147327.py", line 20, in extract_zip_file
+    with zipfile.ZipFile(self.config.local_data_file, 'r') as zip_ref:
+  File "e:\MLs\MLOPS Project\SimpleMLopsProject\venv\lib\zipfile.py", line 1272, in __init__
+    self._RealGetContents()
+  File "e:\MLs\MLOPS Project\SimpleMLopsProject\venv\lib\zipfile.py", line 1339, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+2025-07-26 21:29:35,268 - SimpleMLopsLogger - INFO - YAML file config\config.yaml read successfully.
+2025-07-26 21:29:35,271 - SimpleMLopsLogger - INFO - Created directory: artifacts
+2025-07-26 21:29:35,272 - SimpleMLopsLogger - INFO - Created directory: artifacts/data_ingestion
+2025-07-26 21:29:35,979 - SimpleMLopsLogger - INFO - artifacts/data_ingestion/winequality-data.zip downloaded with following info: Date: Sat, 26 Jul 2025 15:59:35 GMT
+Content-Type: text/html; charset=utf-8
+Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, X-Requested-With,Accept-Encoding, Accept, X-Requested-With
+x-repository-download: git clone https://github.com/krishnaik06/datasets.git
+x-raw-download: https://raw.githubusercontent.com/krishnaik06/datasets/main/winequality-data.zip
+ETag: W/"adeea2feecb11fa62334078ce98ef985"
+Cache-Control: max-age=0, private, must-revalidate
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: no-referrer-when-downgrade
+Content-Security-Policy: default-src 'none'; base-uri 'self'; child-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com *.rel.tunnels.api.visualstudio.com wss://*.rel.tunnels.api.visualstudio.com objects-origin.githubusercontent.com copilot-proxy.githubusercontent.com proxy.individual.githubcopilot.com proxy.business.githubcopilot.com proxy.enterprise.githubcopilot.com *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net/ productionresultssa1.blob.core.windows.net/ productionresultssa2.blob.core.windows.net/ productionresultssa3.blob.core.windows.net/ productionresultssa4.blob.core.windows.net/ productionresultssa5.blob.core.windows.net/ productionresultssa6.blob.core.windows.net/ productionresultssa7.blob.core.windows.net/ productionresultssa8.blob.core.windows.net/ productionresultssa9.blob.core.windows.net/ productionresultssa10.blob.core.windows.net/ productionresultssa11.blob.core.windows.net/ productionresultssa12.blob.core.windows.net/ productionresultssa13.blob.core.windows.net/ productionresultssa14.blob.core.windows.net/ productionresultssa15.blob.core.windows.net/ productionresultssa16.blob.core.windows.net/ productionresultssa17.blob.core.windows.net/ productionresultssa18.blob.core.windows.net/ productionresultssa19.blob.core.windows.net/ github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com api.githubcopilot.com api.individual.githubcopilot.com api.business.githubcopilot.com api.enterprise.githubcopilot.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: blob: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com private-avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com release-assets.githubusercontent.com secured-user-images.githubusercontent.com/ user-images.githubusercontent.com/ private-user-images.githubusercontent.com opengraph.githubassets.com copilotprodattachments.blob.core.windows.net/github-production-copilot-attachments/ github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/ private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/
+Server: github.com
+Accept-Ranges: bytes
+Set-Cookie: _gh_sess=5EuP6TFaOYztkwX5BDBlAwnC1mo5VTQUI2N42X3xVHlJqscRIEqgB1EHIyk4ycOnI1SDhn3oPwsc7frmzqGvdtDimRgNtuiwNU0gBapsNbg8P%2FUs8cJAXW5UgHuBMS%2FZ%2Bl4T0rgHWVVPYi8aIscq4OEmFMYkEq54SesU71mB2MXGqtmwKmMYnv0w1VWrw3H116EYQR7hhj4ZlT2SI4wejm1Xy0STgBTUFH%2BwlVOkDXaRjPVCooaOkQ32vzNfoE8QdSS46JMQ4%2BKIZMV45MGJPw%3D%3D--3%2BTPNRxvu7ibgxlc--ChCkaHHtyVnfu4rBtFf5Lg%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: _octo=GH1.1.1129839955.1753545575; Path=/; Domain=github.com; Expires=Sun, 26 Jul 2026 15:59:35 GMT; Secure; SameSite=Lax
+Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Sun, 26 Jul 2026 15:59:35 GMT; HttpOnly; Secure; SameSite=Lax
+X-GitHub-Request-Id: 976B:2F5ED7:701EFE:90EB82:6884FB67
+connection: close
+Transfer-Encoding: chunked
+
+
+2025-07-26 21:29:36,021 - SimpleMLopsLogger - ERROR - File is not a zip file
+Traceback (most recent call last):
+  File "C:\Users\omsup\AppData\Local\Temp\ipykernel_352\2833887405.py", line 6, in <module>
+    data_ingestion.extract_zip_file()
+  File "C:\Users\omsup\AppData\Local\Temp\ipykernel_352\1325147327.py", line 20, in extract_zip_file
+    with zipfile.ZipFile(self.config.local_data_file, 'r') as zip_ref:
+  File "e:\MLs\MLOPS Project\SimpleMLopsProject\venv\lib\zipfile.py", line 1272, in __init__
+    self._RealGetContents()
+  File "e:\MLs\MLOPS Project\SimpleMLopsProject\venv\lib\zipfile.py", line 1339, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+2025-07-26 21:30:31,335 - SimpleMLopsLogger - INFO - YAML file config\config.yaml read successfully.
+2025-07-26 21:30:31,336 - SimpleMLopsLogger - INFO - Created directory: artifacts
+2025-07-26 21:30:31,337 - SimpleMLopsLogger - INFO - Created directory: artifacts/data_ingestion
+2025-07-26 21:30:31,338 - SimpleMLopsLogger - INFO - File artifacts/data_ingestion/winequality-data.zip already exists.
+2025-07-27 09:51:16,427 - SimpleMLopsLogger - INFO - Data ingestion pipeline module loaded successfully.
+2025-07-27 09:51:16,431 - SimpleMLopsLogger - INFO - YAML file config\config.yaml read successfully.
+2025-07-27 09:51:16,432 - SimpleMLopsLogger - INFO - Created directory: artifacts
+2025-07-27 09:51:16,432 - SimpleMLopsLogger - INFO - Created directory: artifacts/data_ingestion
+2025-07-27 09:51:17,801 - SimpleMLopsLogger - INFO - artifacts/data_ingestion/winequality-data.zip downloaded with following info: Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 5A03:2A0292:167F5F:3E48BC:6885A93B
+Accept-Ranges: bytes
+Date: Sun, 27 Jul 2025 04:21:16 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21737-DEL
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1753590077.552743,VS0,VE284
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 0469eb8c526ce49cd3068055946df4af8c9378bb
+Expires: Sun, 27 Jul 2025 04:26:16 GMT
+Source-Age: 0
+
+
+2025-07-27 09:51:17,829 - SimpleMLopsLogger - INFO - Data Ingestion Stage completed successfully.
+2025-07-27 09:51:17,829 - SimpleMLopsLogger - INFO - Data ingestion pipeline executed successfully.

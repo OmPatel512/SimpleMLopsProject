@@ -1,3 +1,7 @@
 from src import logger
+from src.pipeline.data_ingestion_pipe import DataIngestionTrainingPipeline
 
-logger.info("This is a log message from src/__init__.py") 
+DataIngestionTrainingPipeline = DataIngestionTrainingPipeline()
+logger.info("Data ingestion pipeline module loaded successfully.")
+DataIngestionTrainingPipeline.initiate_data_ingestion()
+logger.info("Data ingestion pipeline executed successfully.")
