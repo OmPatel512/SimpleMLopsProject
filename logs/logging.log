@@ -354,3 +354,180 @@ NameError: name 'data_validation_config' is not defined. Did you mean: 'DataVali
 2025-07-27 17:49:33,961 - SimpleMLopsLogger - INFO - Created directory: artifacts/data_validation
 2025-07-27 17:49:33,982 - SimpleMLopsLogger - INFO - Data Validation Stage completed successfully.
 2025-07-27 17:49:33,982 - SimpleMLopsLogger - INFO - Data validation pipeline executed successfully.
+2025-07-27 21:22:05,450 - SimpleMLopsLogger - INFO - YAML file config\config.yaml read successfully.
+2025-07-27 21:22:05,455 - SimpleMLopsLogger - INFO - YAML file schema.yaml read successfully.
+2025-07-27 21:22:05,463 - SimpleMLopsLogger - INFO - YAML file params.yaml read successfully.
+2025-07-27 21:22:05,465 - SimpleMLopsLogger - INFO - Created directory: artifacts
+2025-07-27 21:22:05,467 - SimpleMLopsLogger - ERROR - "'ConfigBox' object has no attribute 'data_transformation'"
+Traceback (most recent call last):
+  File "box\\box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'data_transformation'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 633, in box.box.Box.__getattr__
+  File "box\\box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'data_transformation'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'data_transformation'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\config_box.py", line 29, in box.config_box.ConfigBox.__getattr__
+  File "box\\box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_transformation'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'data_transformation'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 633, in box.box.Box.__getattr__
+  File "box\\box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'data_transformation'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'data_transformation'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\omsup\AppData\Local\Temp\ipykernel_17140\2125397980.py", line 3, in <module>
+    data_transformation_config = config.get_data_transformation_config()
+  File "C:\Users\omsup\AppData\Local\Temp\ipykernel_17140\2978368625.py", line 14, in get_data_transformation_config
+    config = self.config.data_transformation
+  File "box\\config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
+  File "box\\box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_transformation'"
+2025-07-27 21:23:52,590 - SimpleMLopsLogger - INFO - YAML file config\config.yaml read successfully.
+2025-07-27 21:23:52,595 - SimpleMLopsLogger - INFO - YAML file schema.yaml read successfully.
+2025-07-27 21:23:52,597 - SimpleMLopsLogger - INFO - YAML file params.yaml read successfully.
+2025-07-27 21:23:52,598 - SimpleMLopsLogger - INFO - Created directory: artifacts
+2025-07-27 21:23:52,599 - SimpleMLopsLogger - ERROR - "'ConfigBox' object has no attribute 'data_transformation'"
+Traceback (most recent call last):
+  File "box\\box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'data_transformation'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 633, in box.box.Box.__getattr__
+  File "box\\box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'data_transformation'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'data_transformation'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\config_box.py", line 29, in box.config_box.ConfigBox.__getattr__
+  File "box\\box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_transformation'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'data_transformation'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 633, in box.box.Box.__getattr__
+  File "box\\box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'data_transformation'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'data_transformation'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\omsup\AppData\Local\Temp\ipykernel_17140\2125397980.py", line 3, in <module>
+    data_transformation_config = config.get_data_transformation_config()
+  File "C:\Users\omsup\AppData\Local\Temp\ipykernel_17140\2978368625.py", line 14, in get_data_transformation_config
+    config = self.config.data_transformation
+  File "box\\config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
+  File "box\\box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_transformation'"
+2025-07-27 21:27:28,149 - SimpleMLopsLogger - INFO - YAML file config\config.yaml read successfully.
+2025-07-27 21:27:28,158 - SimpleMLopsLogger - INFO - YAML file schema.yaml read successfully.
+2025-07-27 21:27:28,170 - SimpleMLopsLogger - INFO - YAML file params.yaml read successfully.
+2025-07-27 21:27:28,172 - SimpleMLopsLogger - INFO - Created directory: artifacts
+2025-07-27 21:27:28,173 - SimpleMLopsLogger - INFO - Created directory: artifacts\data_transformation
+2025-07-27 21:27:28,214 - SimpleMLopsLogger - INFO - Splitted data into train ans test sets.
+2025-07-27 21:27:28,215 - SimpleMLopsLogger - INFO - (1279, 12)
+2025-07-27 21:27:28,216 - SimpleMLopsLogger - INFO - (320, 12)
+2025-07-27 22:04:17,201 - SimpleMLopsLogger - INFO - Data ingestion pipeline module loaded successfully.
+2025-07-27 22:04:17,203 - SimpleMLopsLogger - INFO - YAML file config\config.yaml read successfully.
+2025-07-27 22:04:17,204 - SimpleMLopsLogger - INFO - YAML file params.yaml read successfully.
+2025-07-27 22:04:17,205 - SimpleMLopsLogger - INFO - YAML file schema.yaml read successfully.
+2025-07-27 22:04:17,206 - SimpleMLopsLogger - INFO - Created directory: artifacts
+2025-07-27 22:04:17,207 - SimpleMLopsLogger - INFO - Created directory: artifacts/data_ingestion
+2025-07-27 22:04:18,194 - SimpleMLopsLogger - INFO - artifacts/data_ingestion/winequality-data.zip downloaded with following info: Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 780A:136DA0:24707A:5CA067:68865509
+Accept-Ranges: bytes
+Date: Sun, 27 Jul 2025 16:34:17 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21729-DEL
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1753634058.665838,VS0,VE299
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: ccd2cea3a3f58ea9b67fb34353574482812fd5f6
+Expires: Sun, 27 Jul 2025 16:39:17 GMT
+Source-Age: 0
+
+
+2025-07-27 22:04:18,210 - SimpleMLopsLogger - INFO - Data Ingestion Stage completed successfully.
+2025-07-27 22:04:18,210 - SimpleMLopsLogger - INFO - Data ingestion pipeline executed successfully.
+2025-07-27 22:04:18,211 - SimpleMLopsLogger - INFO - Data validation pipeline module loaded successfully.
+2025-07-27 22:04:18,212 - SimpleMLopsLogger - INFO - YAML file config\config.yaml read successfully.
+2025-07-27 22:04:18,213 - SimpleMLopsLogger - INFO - YAML file params.yaml read successfully.
+2025-07-27 22:04:18,214 - SimpleMLopsLogger - INFO - YAML file schema.yaml read successfully.
+2025-07-27 22:04:18,214 - SimpleMLopsLogger - INFO - Created directory: artifacts
+2025-07-27 22:04:18,215 - SimpleMLopsLogger - INFO - Created directory: artifacts/data_validation
+2025-07-27 22:04:18,233 - SimpleMLopsLogger - INFO - Data Validation Stage completed successfully.
+2025-07-27 22:04:18,233 - SimpleMLopsLogger - INFO - Data validation pipeline executed successfully.
+2025-07-27 22:04:18,233 - SimpleMLopsLogger - INFO - Data transformation pipeline module loaded successfully.
+2025-07-27 22:04:18,234 - SimpleMLopsLogger - INFO - YAML file config\config.yaml read successfully.
+2025-07-27 22:04:18,235 - SimpleMLopsLogger - INFO - YAML file params.yaml read successfully.
+2025-07-27 22:04:18,236 - SimpleMLopsLogger - INFO - YAML file schema.yaml read successfully.
+2025-07-27 22:04:18,236 - SimpleMLopsLogger - INFO - Created directory: artifacts
+2025-07-27 22:04:18,237 - SimpleMLopsLogger - INFO - Created directory: artifacts/data_transformation
+2025-07-27 22:04:18,263 - SimpleMLopsLogger - INFO - Splitted data into train ans test sets.
+2025-07-27 22:04:18,264 - SimpleMLopsLogger - INFO - (1279, 12)
+2025-07-27 22:04:18,264 - SimpleMLopsLogger - INFO - (320, 12)
+2025-07-27 22:04:18,265 - SimpleMLopsLogger - INFO - Data transformation completed successfully.
+2025-07-27 22:04:18,265 - SimpleMLopsLogger - INFO - Data transformation pipeline executed successfully.
