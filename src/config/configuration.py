@@ -1,6 +1,6 @@
 from src.constants import CONFIG_FILE_PATH, PARAMS_FILE_PATH, SCHEMA_FILE_PATH
 from src.utils.common import read_yaml, create_directories
-from src.entity.config_entity import DataIngestionConfig, DataValidationConfig, DataTransformationConfig, ModelTrainConfig
+from src.entity.config_entity import DataIngestionConfig, DataValidationConfig, DataTransformationConfig, ModelTrainConfig, ModelEvaluationConfig
 
 
 class ConfigurationManager:
@@ -64,3 +64,23 @@ class ConfigurationManager:
         )
         
         return model_train_config
+    
+    def get_model_evaluation_config(self) -> ModelEvaluationConfig:
+        config = self.config.model_evaluation
+        params = self.params.ElasticNet
+        schema = self.schema
+        
+        create_directories([config.root_dir])
+        
+        model_eval_config = ModelEvaluationConfig(
+            root_dir=config.root_dir,
+            model_path=config.model_path,
+            test_data_path=config.test_data_path,
+            metric_filename=config.metric_filename,
+            all_params=params,
+            target_column=schema.TARGET_COLUMN.name,
+            mlflow_uri=schema.MLFLOW.uri
+        )
+        
+        return model_eval_config
+        

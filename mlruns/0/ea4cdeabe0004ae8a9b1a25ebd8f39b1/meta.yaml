@@ -1,0 +1,14 @@
+artifact_uri: file:///E:/MLs/MLOPS%20Project/SimpleMLopsProject/mlruns/0/ea4cdeabe0004ae8a9b1a25ebd8f39b1/artifacts
+end_time: 1753807479977
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ea4cdeabe0004ae8a9b1a25ebd8f39b1
+run_name: bemused-ape-770
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753807479902
+status: 4
+tags: []
+user_id: omsup

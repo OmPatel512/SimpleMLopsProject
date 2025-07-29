@@ -3,6 +3,7 @@ from src.pipeline.data_ingestion_pipe import DataIngestionTrainingPipeline
 from src.pipeline.data_validation_pipe import DataValidationTrainingPipeline
 from src.pipeline.data_transformation_pipe import DataTransformationTrainingPipeline
 from src.pipeline.model_trainer_pipe import ModelTrainerPipeline
+from src.pipeline.model_evaluator_pipe import ModelEvaluationPipeline
 
 DataIngestionTrainingPipeline = DataIngestionTrainingPipeline()
 logger.info("Data ingestion pipeline module loaded successfully.")
@@ -23,3 +24,10 @@ ModelTrainerPipeline = ModelTrainerPipeline()
 logger.info("Model trainer pipeline module loaded successfully.")       
 ModelTrainerPipeline.initiate_model_training()
 logger.info("Model trainer pipeline executed successfully.")
+
+ModelEvaluationPipeline = ModelEvaluationPipeline()
+logger.info("Model evaluation pipeline module loaded successfully.")        
+ModelEvaluationPipeline.initiate_model_evaluation()
+logger.info("Model evaluation pipeline executed successfully.")
+
+

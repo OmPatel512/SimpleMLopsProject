@@ -14,3 +14,6 @@ COLUMNS:
 
 TARGET_COLUMN:
   name: quality
+
+MLFLOW:
+  uri : https://dagshub.com/myst1cop4/SimpleMLopsProject.mlflow

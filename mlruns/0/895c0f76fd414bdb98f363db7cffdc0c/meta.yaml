@@ -1,0 +1,14 @@
+artifact_uri: file:///E:/MLs/MLOPS%20Project/SimpleMLopsProject/mlruns/0/895c0f76fd414bdb98f363db7cffdc0c/artifacts
+end_time: 1753808063983
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 895c0f76fd414bdb98f363db7cffdc0c
+run_name: carefree-midge-792
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753808060454
+status: 3
+tags: []
+user_id: omsup

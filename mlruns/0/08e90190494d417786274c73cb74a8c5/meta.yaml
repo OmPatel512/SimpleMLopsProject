@@ -1,0 +1,14 @@
+artifact_uri: file:///E:/MLs/MLOPS%20Project/SimpleMLopsProject/mlruns/0/08e90190494d417786274c73cb74a8c5/artifacts
+end_time: 1753807657404
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 08e90190494d417786274c73cb74a8c5
+run_name: skittish-worm-172
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753807653819
+status: 3
+tags: []
+user_id: omsup

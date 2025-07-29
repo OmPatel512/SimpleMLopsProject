@@ -1,0 +1,14 @@
+artifact_uri: file:///E:/MLs/MLOPS%20Project/SimpleMLopsProject/mlruns/0/7da5df21473241e0ab6ad8e88d7593be/artifacts
+end_time: 1753808154766
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7da5df21473241e0ab6ad8e88d7593be
+run_name: merciful-fish-229
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753808151039
+status: 3
+tags: []
+user_id: omsup

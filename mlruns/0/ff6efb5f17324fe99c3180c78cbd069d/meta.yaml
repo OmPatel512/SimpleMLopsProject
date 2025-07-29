@@ -1,0 +1,14 @@
+artifact_uri: file:///E:/MLs/MLOPS%20Project/SimpleMLopsProject/mlruns/0/ff6efb5f17324fe99c3180c78cbd069d/artifacts
+end_time: 1753807867412
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ff6efb5f17324fe99c3180c78cbd069d
+run_name: debonair-shark-488
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753807863504
+status: 3
+tags: []
+user_id: omsup
