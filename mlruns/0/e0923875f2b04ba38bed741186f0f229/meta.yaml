@@ -1,0 +1,14 @@
+artifact_uri: file:///E:/MLs/MLOPS%20Project/SimpleMLopsProject/mlruns/0/e0923875f2b04ba38bed741186f0f229/artifacts
+end_time: 1754116182317
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e0923875f2b04ba38bed741186f0f229
+run_name: trusting-mouse-98
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754116178409
+status: 3
+tags: []
+user_id: omsup

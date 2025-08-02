@@ -28,6 +28,4 @@ model_evaluation:
   model_path: artifacts/model_trainer/model.joblib
   test_data_path: artifacts/data_transformation/test.csv
   metric_filename: artifacts/model_evaluation/metrics.json
-  all_params: dict
-  target_column: str
-  mlflow_uri: str
+  

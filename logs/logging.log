@@ -1096,3 +1096,145 @@ TypeError: typing.Any cannot be used with isinstance()
 2025-07-29 22:25:50,481 - SimpleMLopsLogger - INFO - Created directory: artifacts/model_evaluation
 2025-07-29 22:25:51,075 - SimpleMLopsLogger - INFO - Data saved to artifacts\model_evaluation\metrics.json
 2025-07-29 22:25:54,767 - SimpleMLopsLogger - INFO - Model evaluation pipeline executed successfully.
+2025-08-02 11:56:14,015 - SimpleMLopsLogger - INFO - Data ingestion pipeline module loaded successfully.
+2025-08-02 11:56:14,027 - SimpleMLopsLogger - INFO - YAML file config\config.yaml read successfully.
+2025-08-02 11:56:14,034 - SimpleMLopsLogger - INFO - YAML file params.yaml read successfully.
+2025-08-02 11:56:14,037 - SimpleMLopsLogger - INFO - YAML file schema.yaml read successfully.
+2025-08-02 11:56:14,038 - SimpleMLopsLogger - INFO - Created directory: artifacts
+2025-08-02 11:56:14,038 - SimpleMLopsLogger - INFO - Created directory: artifacts/data_ingestion
+2025-08-02 11:56:14,038 - SimpleMLopsLogger - INFO - File artifacts/data_ingestion/winequality-data.zip already exists.
+2025-08-02 11:56:14,061 - SimpleMLopsLogger - INFO - Data Ingestion Stage completed successfully.
+2025-08-02 11:56:14,061 - SimpleMLopsLogger - INFO - Data ingestion pipeline executed successfully.
+2025-08-02 11:56:14,061 - SimpleMLopsLogger - INFO - Data validation pipeline module loaded successfully.
+2025-08-02 11:56:14,065 - SimpleMLopsLogger - INFO - YAML file config\config.yaml read successfully.
+2025-08-02 11:56:14,066 - SimpleMLopsLogger - INFO - YAML file params.yaml read successfully.
+2025-08-02 11:56:14,068 - SimpleMLopsLogger - INFO - YAML file schema.yaml read successfully.
+2025-08-02 11:56:14,068 - SimpleMLopsLogger - INFO - Created directory: artifacts
+2025-08-02 11:56:14,068 - SimpleMLopsLogger - INFO - Created directory: artifacts/data_validation
+2025-08-02 11:56:14,088 - SimpleMLopsLogger - INFO - Data Validation Stage completed successfully.
+2025-08-02 11:56:14,089 - SimpleMLopsLogger - INFO - Data validation pipeline executed successfully.
+2025-08-02 11:56:14,089 - SimpleMLopsLogger - INFO - Data transformation pipeline module loaded successfully.
+2025-08-02 11:56:14,092 - SimpleMLopsLogger - INFO - YAML file config\config.yaml read successfully.
+2025-08-02 11:56:14,094 - SimpleMLopsLogger - INFO - YAML file params.yaml read successfully.
+2025-08-02 11:56:14,096 - SimpleMLopsLogger - INFO - YAML file schema.yaml read successfully.
+2025-08-02 11:56:14,097 - SimpleMLopsLogger - INFO - Created directory: artifacts
+2025-08-02 11:56:14,097 - SimpleMLopsLogger - INFO - Created directory: artifacts/data_transformation
+2025-08-02 11:56:14,120 - SimpleMLopsLogger - INFO - Splitted data into train ans test sets.
+2025-08-02 11:56:14,120 - SimpleMLopsLogger - INFO - (1279, 12)
+2025-08-02 11:56:14,121 - SimpleMLopsLogger - INFO - (320, 12)
+2025-08-02 11:56:14,122 - SimpleMLopsLogger - INFO - Data transformation completed successfully.
+2025-08-02 11:56:14,122 - SimpleMLopsLogger - INFO - Data transformation pipeline executed successfully.
+2025-08-02 11:56:14,122 - SimpleMLopsLogger - INFO - Model trainer pipeline module loaded successfully.
+2025-08-02 11:56:14,125 - SimpleMLopsLogger - INFO - YAML file config\config.yaml read successfully.
+2025-08-02 11:56:14,127 - SimpleMLopsLogger - INFO - YAML file params.yaml read successfully.
+2025-08-02 11:56:14,130 - SimpleMLopsLogger - INFO - YAML file schema.yaml read successfully.
+2025-08-02 11:56:14,131 - SimpleMLopsLogger - INFO - Created directory: artifacts
+2025-08-02 11:56:14,131 - SimpleMLopsLogger - INFO - Created directory: artifacts/model_trainer
+2025-08-02 11:56:14,167 - SimpleMLopsLogger - INFO - Model trainer pipeline executed successfully.
+2025-08-02 11:56:14,167 - SimpleMLopsLogger - INFO - Model evaluation pipeline module loaded successfully.
+2025-08-02 11:56:14,170 - SimpleMLopsLogger - INFO - YAML file config\config.yaml read successfully.
+2025-08-02 11:56:14,172 - SimpleMLopsLogger - INFO - YAML file params.yaml read successfully.
+2025-08-02 11:56:14,175 - SimpleMLopsLogger - INFO - YAML file schema.yaml read successfully.
+2025-08-02 11:56:14,176 - SimpleMLopsLogger - INFO - Created directory: artifacts
+2025-08-02 11:56:14,176 - SimpleMLopsLogger - INFO - Created directory: artifacts/model_evaluation
+2025-08-02 11:56:15,213 - SimpleMLopsLogger - INFO - Data saved to artifacts\model_evaluation\metrics.json
+2025-08-02 11:56:22,281 - SimpleMLopsLogger - INFO - Model evaluation pipeline executed successfully.
+2025-08-02 11:57:48,895 - SimpleMLopsLogger - INFO - Data ingestion pipeline module loaded successfully.
+2025-08-02 11:57:48,899 - SimpleMLopsLogger - INFO - YAML file config\config.yaml read successfully.
+2025-08-02 11:57:48,900 - SimpleMLopsLogger - INFO - YAML file params.yaml read successfully.
+2025-08-02 11:57:48,903 - SimpleMLopsLogger - INFO - YAML file schema.yaml read successfully.
+2025-08-02 11:57:48,904 - SimpleMLopsLogger - INFO - Created directory: artifacts
+2025-08-02 11:57:48,904 - SimpleMLopsLogger - INFO - Created directory: artifacts/data_ingestion
+2025-08-02 11:57:48,904 - SimpleMLopsLogger - INFO - File artifacts/data_ingestion/winequality-data.zip already exists.
+2025-08-02 11:57:48,907 - SimpleMLopsLogger - INFO - Data Ingestion Stage completed successfully.
+2025-08-02 11:57:48,907 - SimpleMLopsLogger - INFO - Data ingestion pipeline executed successfully.
+2025-08-02 11:57:48,907 - SimpleMLopsLogger - INFO - Data validation pipeline module loaded successfully.
+2025-08-02 11:57:48,911 - SimpleMLopsLogger - INFO - YAML file config\config.yaml read successfully.
+2025-08-02 11:57:48,911 - SimpleMLopsLogger - INFO - YAML file params.yaml read successfully.
+2025-08-02 11:57:48,913 - SimpleMLopsLogger - INFO - YAML file schema.yaml read successfully.
+2025-08-02 11:57:48,914 - SimpleMLopsLogger - INFO - Created directory: artifacts
+2025-08-02 11:57:48,914 - SimpleMLopsLogger - INFO - Created directory: artifacts/data_validation
+2025-08-02 11:57:48,933 - SimpleMLopsLogger - INFO - Data Validation Stage completed successfully.
+2025-08-02 11:57:48,933 - SimpleMLopsLogger - INFO - Data validation pipeline executed successfully.
+2025-08-02 11:57:48,934 - SimpleMLopsLogger - INFO - Data transformation pipeline module loaded successfully.
+2025-08-02 11:57:48,937 - SimpleMLopsLogger - INFO - YAML file config\config.yaml read successfully.
+2025-08-02 11:57:48,939 - SimpleMLopsLogger - INFO - YAML file params.yaml read successfully.
+2025-08-02 11:57:48,942 - SimpleMLopsLogger - INFO - YAML file schema.yaml read successfully.
+2025-08-02 11:57:48,942 - SimpleMLopsLogger - INFO - Created directory: artifacts
+2025-08-02 11:57:48,942 - SimpleMLopsLogger - INFO - Created directory: artifacts/data_transformation
+2025-08-02 11:57:48,958 - SimpleMLopsLogger - INFO - Splitted data into train ans test sets.
+2025-08-02 11:57:48,959 - SimpleMLopsLogger - INFO - (1279, 12)
+2025-08-02 11:57:48,959 - SimpleMLopsLogger - INFO - (320, 12)
+2025-08-02 11:57:48,959 - SimpleMLopsLogger - INFO - Data transformation completed successfully.
+2025-08-02 11:57:48,959 - SimpleMLopsLogger - INFO - Data transformation pipeline executed successfully.
+2025-08-02 11:57:48,959 - SimpleMLopsLogger - INFO - Model trainer pipeline module loaded successfully.
+2025-08-02 11:57:48,962 - SimpleMLopsLogger - INFO - YAML file config\config.yaml read successfully.
+2025-08-02 11:57:48,963 - SimpleMLopsLogger - INFO - YAML file params.yaml read successfully.
+2025-08-02 11:57:48,965 - SimpleMLopsLogger - INFO - YAML file schema.yaml read successfully.
+2025-08-02 11:57:48,965 - SimpleMLopsLogger - INFO - Created directory: artifacts
+2025-08-02 11:57:48,966 - SimpleMLopsLogger - INFO - Created directory: artifacts/model_trainer
+2025-08-02 11:57:48,994 - SimpleMLopsLogger - INFO - Model trainer pipeline executed successfully.
+2025-08-02 11:57:48,994 - SimpleMLopsLogger - INFO - Model evaluation pipeline module loaded successfully.
+2025-08-02 11:57:48,997 - SimpleMLopsLogger - INFO - YAML file config\config.yaml read successfully.
+2025-08-02 11:57:48,998 - SimpleMLopsLogger - INFO - YAML file params.yaml read successfully.
+2025-08-02 11:57:49,001 - SimpleMLopsLogger - INFO - YAML file schema.yaml read successfully.
+2025-08-02 11:57:49,001 - SimpleMLopsLogger - INFO - Created directory: artifacts
+2025-08-02 11:57:49,002 - SimpleMLopsLogger - INFO - Created directory: artifacts/model_evaluation
+2025-08-02 11:57:49,558 - SimpleMLopsLogger - INFO - Data saved to artifacts\model_evaluation\metrics.json
+2025-08-02 11:57:53,130 - SimpleMLopsLogger - INFO - Model evaluation pipeline executed successfully.
+2025-08-02 11:59:37,571 - SimpleMLopsLogger - INFO - Data ingestion pipeline module loaded successfully.
+2025-08-02 11:59:37,574 - SimpleMLopsLogger - INFO - YAML file config\config.yaml read successfully.
+2025-08-02 11:59:37,575 - SimpleMLopsLogger - INFO - YAML file params.yaml read successfully.
+2025-08-02 11:59:37,577 - SimpleMLopsLogger - INFO - YAML file schema.yaml read successfully.
+2025-08-02 11:59:37,578 - SimpleMLopsLogger - INFO - Created directory: artifacts
+2025-08-02 11:59:37,578 - SimpleMLopsLogger - INFO - Created directory: artifacts/data_ingestion
+2025-08-02 11:59:37,579 - SimpleMLopsLogger - INFO - File artifacts/data_ingestion/winequality-data.zip already exists.
+2025-08-02 11:59:37,581 - SimpleMLopsLogger - INFO - Data Ingestion Stage completed successfully.
+2025-08-02 11:59:37,581 - SimpleMLopsLogger - INFO - Data ingestion pipeline executed successfully.
+2025-08-02 11:59:37,581 - SimpleMLopsLogger - INFO - Data validation pipeline module loaded successfully.
+2025-08-02 11:59:37,586 - SimpleMLopsLogger - INFO - YAML file config\config.yaml read successfully.
+2025-08-02 11:59:37,589 - SimpleMLopsLogger - INFO - YAML file params.yaml read successfully.
+2025-08-02 11:59:37,592 - SimpleMLopsLogger - INFO - YAML file schema.yaml read successfully.
+2025-08-02 11:59:37,593 - SimpleMLopsLogger - INFO - Created directory: artifacts
+2025-08-02 11:59:37,593 - SimpleMLopsLogger - INFO - Created directory: artifacts/data_validation
+2025-08-02 11:59:37,612 - SimpleMLopsLogger - INFO - Data Validation Stage completed successfully.
+2025-08-02 11:59:37,612 - SimpleMLopsLogger - INFO - Data validation pipeline executed successfully.
+2025-08-02 11:59:37,613 - SimpleMLopsLogger - INFO - Data transformation pipeline module loaded successfully.
+2025-08-02 11:59:37,616 - SimpleMLopsLogger - INFO - YAML file config\config.yaml read successfully.
+2025-08-02 11:59:37,617 - SimpleMLopsLogger - INFO - YAML file params.yaml read successfully.
+2025-08-02 11:59:37,619 - SimpleMLopsLogger - INFO - YAML file schema.yaml read successfully.
+2025-08-02 11:59:37,620 - SimpleMLopsLogger - INFO - Created directory: artifacts
+2025-08-02 11:59:37,620 - SimpleMLopsLogger - INFO - Created directory: artifacts/data_transformation
+2025-08-02 11:59:37,637 - SimpleMLopsLogger - INFO - Splitted data into train ans test sets.
+2025-08-02 11:59:37,637 - SimpleMLopsLogger - INFO - (1279, 12)
+2025-08-02 11:59:37,637 - SimpleMLopsLogger - INFO - (320, 12)
+2025-08-02 11:59:37,638 - SimpleMLopsLogger - INFO - Data transformation completed successfully.
+2025-08-02 11:59:37,638 - SimpleMLopsLogger - INFO - Data transformation pipeline executed successfully.
+2025-08-02 11:59:37,639 - SimpleMLopsLogger - INFO - Model trainer pipeline module loaded successfully.
+2025-08-02 11:59:37,643 - SimpleMLopsLogger - INFO - YAML file config\config.yaml read successfully.
+2025-08-02 11:59:37,644 - SimpleMLopsLogger - INFO - YAML file params.yaml read successfully.
+2025-08-02 11:59:37,646 - SimpleMLopsLogger - INFO - YAML file schema.yaml read successfully.
+2025-08-02 11:59:37,647 - SimpleMLopsLogger - INFO - Created directory: artifacts
+2025-08-02 11:59:37,647 - SimpleMLopsLogger - INFO - Created directory: artifacts/model_trainer
+2025-08-02 11:59:37,680 - SimpleMLopsLogger - INFO - Model trainer pipeline executed successfully.
+2025-08-02 11:59:37,680 - SimpleMLopsLogger - INFO - Model evaluation pipeline module loaded successfully.
+2025-08-02 11:59:37,683 - SimpleMLopsLogger - INFO - YAML file config\config.yaml read successfully.
+2025-08-02 11:59:37,684 - SimpleMLopsLogger - INFO - YAML file params.yaml read successfully.
+2025-08-02 11:59:37,686 - SimpleMLopsLogger - INFO - YAML file schema.yaml read successfully.
+2025-08-02 11:59:37,686 - SimpleMLopsLogger - INFO - Created directory: artifacts
+2025-08-02 11:59:37,687 - SimpleMLopsLogger - INFO - Created directory: artifacts/model_evaluation
+2025-08-02 11:59:38,465 - SimpleMLopsLogger - INFO - Data saved to artifacts\model_evaluation\metrics.json
+2025-08-02 11:59:42,318 - SimpleMLopsLogger - INFO - Model evaluation pipeline executed successfully.
+2025-08-02 12:27:42,976 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.3:5000
+2025-08-02 12:27:42,977 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-02 12:27:42,979 - werkzeug - INFO -  * Restarting with stat
+2025-08-02 12:27:44,136 - werkzeug - WARNING -  * Debugger is active!
+2025-08-02 12:27:44,141 - werkzeug - INFO -  * Debugger PIN: 190-885-923
+2025-08-02 12:27:59,472 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 12:27:59] "GET / HTTP/1.1" 200 -
+2025-08-02 12:27:59,515 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 12:27:59] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -
+2025-08-02 12:27:59,598 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 12:27:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-02 12:28:21,175 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 12:28:21] "POST /predict HTTP/1.1" 200 -
+2025-08-02 12:29:38,721 - werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 12:29:38] "POST /predict HTTP/1.1" 200 -

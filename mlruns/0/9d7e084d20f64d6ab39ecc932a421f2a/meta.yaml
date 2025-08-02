@@ -1,0 +1,14 @@
+artifact_uri: file:///E:/MLs/MLOPS%20Project/SimpleMLopsProject/mlruns/0/9d7e084d20f64d6ab39ecc932a421f2a/artifacts
+end_time: 1754115982279
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9d7e084d20f64d6ab39ecc932a421f2a
+run_name: adorable-bug-670
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754115975150
+status: 3
+tags: []
+user_id: omsup

@@ -1,0 +1,10 @@
+artifact_location: file:///E:/MLs/MLOPS%20Project/SimpleMLopsProject/mlruns/0/models/m-00098a75019d410aa8f9f95dc509379c/artifacts
+creation_timestamp: 1754116178524
+experiment_id: '0'
+last_updated_timestamp: 1754116182301
+model_id: m-00098a75019d410aa8f9f95dc509379c
+model_type: null
+name: model
+source_run_id: e0923875f2b04ba38bed741186f0f229
+status: 2
+status_message: null
